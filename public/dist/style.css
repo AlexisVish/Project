@@ -122,3 +122,26 @@ h6 {
   color: #9e7676;
   padding: 1vw;
 }
+
+@media (max-width: 450px) {
+  .body {
+    background-color: #f7eaeb;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    width: 350px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .header {
+    width: 100vw;
+  }
+
+  .side {
+    width: 100vw;
+  }
+}
