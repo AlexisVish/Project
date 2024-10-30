@@ -107,3 +107,23 @@ h6 {
   color: rgb(158, 118, 118);
   padding: 1vw;
 }
+@media (max-width:450px) {
+.body{
+  background-color: rgb(247, 234, 235);
+  ;
+}
+.container{
+  flex-direction: column-reverse;
+width: 350px;
+}
+h1{
+  font-size: 15px;
+
+}
+.header{
+  width: 100vw;
+}
+.side{
+  width: 100vw;
+}
+}
