@@ -131,6 +131,8 @@ h6 {
   .container {
     flex-direction: column-reverse;
     width: 350px;
+    align-items: center;
+    justify-content: center;
   }
 
   h1 {
@@ -138,10 +140,13 @@ h6 {
   }
 
   .header {
-    width: 100vw;
+    width: 75vw;
+    padding: 15px;
+    text-align: center;
   }
 
   .side {
-    width: 100vw;
+    width: 80vw;
+    margin: 0;
   }
 }
