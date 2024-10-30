@@ -132,10 +132,12 @@ h6 {
     align-items: center;
     justify-content: center;
   }
+html{
+  background-color: #f7eaeb;
 
+}
   .container {
     flex-direction: column-reverse;
-    width: 350px;
     align-items: center;
     justify-content: center;
   }
